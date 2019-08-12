@@ -10,6 +10,7 @@
     "build": "kintone-plugin-packer --ppk private.ppk --out dist/plugin.zip src",
     "lint": "eslint src",
     "storybook": "start-storybook -p 6006",
+    "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
