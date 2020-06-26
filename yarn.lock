@@ -1079,20 +1079,20 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@kintone/plugin-manifest-validator@^3.0.3":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@kintone/plugin-manifest-validator/-/plugin-manifest-validator-3.0.4.tgz#6f4d46712a5df087114dd1b5e6a76a5f10d44275"
-  integrity sha512-i8WacCblcdFgyCineiq0uFbuZqgMLwBFkCAhs6BFFK2nwRlpcFdBXonCP3vDbI1GCZafVWWGXwStyTEj6Ol5Ag==
+"@kintone/plugin-manifest-validator@^3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@kintone/plugin-manifest-validator/-/plugin-manifest-validator-3.0.5.tgz#8beb6203132ebc0e1f8b02f8656b05fa8f300cf3"
+  integrity sha512-bzOK1Iv/wiMsWxgvviVQEQYzbPXn3uTAzEbRDcWOo4s88mkJj8SluyNNtP8T5fAbycEwWHEqe5feksVnpsSCMA==
   dependencies:
     ajv "^6.12.2"
     bytes "^3.1.0"
 
-"@kintone/plugin-packer@3.0.4":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@kintone/plugin-packer/-/plugin-packer-3.0.4.tgz#c51a13b57458e5adebb1ce4638ced0165d67e247"
-  integrity sha512-UlVFkK1DTTQso/8yb5TDq7pWDuSB/zyYNZu15XWpWg5k7YPtMeFKxqt7Iyxp/eDZW1TlT5OBVzJNtrEwOKtFRg==
+"@kintone/plugin-packer@3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@kintone/plugin-packer/-/plugin-packer-3.0.5.tgz#0dce10445c5659b0a224ef68ab2f61614ec3f6aa"
+  integrity sha512-4b1nvikGWmuvYraPBZJivL+myftazQk9jVQ9LqlTYcWVoffRw2wtWVR0wMeAcHB1nDJ6lvQ+BnXXVLOSUW9I3g==
   dependencies:
-    "@kintone/plugin-manifest-validator" "^3.0.3"
+    "@kintone/plugin-manifest-validator" "^3.0.5"
     chokidar "^3.4.0"
     debug "^4.1.1"
     denodeify "^1.2.1"
