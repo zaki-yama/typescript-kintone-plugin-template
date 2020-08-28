@@ -33,7 +33,7 @@
   "devDependencies": {
     "@babel/core": "7.11.4",
     "@cybozu/eslint-config": "11.0.0",
-    "@kintone/plugin-packer": "3.0.5",
+    "@kintone/plugin-packer": "3.0.6",
     "@kintone/plugin-uploader": "4.1.1",
     "@storybook/preset-typescript": "3.0.0",
     "@storybook/react": "5.3.21",
