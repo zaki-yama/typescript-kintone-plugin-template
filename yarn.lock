@@ -2097,27 +2097,27 @@
   resolved "https://registry.yarnpkg.com/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
   integrity sha512-QPcGmICAPbGLGb6F/yNf/KzKqvFx8z5qx3D1yFqVAjoFmXK35EgyW+cJ57Te3CNsmzblwtzakLGFqHPqrfb4Tw==
 
-"@kintone/plugin-manifest-validator@^3.0.7":
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/@kintone/plugin-manifest-validator/-/plugin-manifest-validator-3.0.7.tgz#cf9ef972eead7b810765d16a3c6b09aca37b8449"
-  integrity sha512-eNQ9H64KStQd4eLw93FC0BqGSKB91SecdfIYYUT41/fWk18F2brzIgDXqyb9r+uA89mJ0L/Y8RZ2qyt/LhKKHA==
+"@kintone/plugin-manifest-validator@^3.0.8":
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/@kintone/plugin-manifest-validator/-/plugin-manifest-validator-3.0.8.tgz#a43ca9c7d360aa8f91836d944317fcafa93da12b"
+  integrity sha512-Z05SHdOS0MH4YCCifpCGUsQ97EB6ZWIvTRNCv7Mo9EJPEj0pfyHjFbSF35MUCubeRmWopUXdjez37LYW745xfw==
   dependencies:
     "@types/bytes" "^3.1.0"
-    ajv "^6.12.4"
+    ajv "^6.12.6"
     bytes "^3.1.0"
     rimraf "^3.0.2"
     ts-node "^9.0.0"
 
-"@kintone/plugin-packer@3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@kintone/plugin-packer/-/plugin-packer-3.0.6.tgz#6b3669e5ba7c2e4d2c1b9aa1372c947929d9ac9f"
-  integrity sha512-ukPke6n7uI/HL2xnzDYLIPDQA1nKv9ZucYA0GMcr4RYA+7yt+OCo5C3KJRI8JlV6vxqKEiYiLueis55wEx6pAw==
+"@kintone/plugin-packer@3.0.7":
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@kintone/plugin-packer/-/plugin-packer-3.0.7.tgz#c4991070c70f167ea4799da68a2e29535b51e54a"
+  integrity sha512-3jzf0TuXPkB2q2bompaz6lJQvikjuY+ncS/lqQb01hw8wTLagc+4aAXCmeBgsD/9jd6gWn+T/NyIYC8IRCuTew==
   dependencies:
-    "@kintone/plugin-manifest-validator" "^3.0.7"
+    "@kintone/plugin-manifest-validator" "^3.0.8"
     chokidar "^3.4.0"
-    debug "^4.1.1"
+    debug "^4.2.0"
     denodeify "^1.2.1"
-    meow "^7.1.0"
+    meow "^7.1.1"
     mkdirp "^1.0.4"
     node-rsa "~1.1.1"
     stream-buffers "^3.0.2"
@@ -3671,6 +3671,16 @@ ajv@^6.12.4:
   version "6.12.4"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.4.tgz#0614facc4522127fa713445c6bfd3ebd376e2234"
   integrity sha512-eienB2c9qVQs2KWexhkrdMLVDoIQCz5KSeLxwg9Lzk4DOfBtIK9PQwwufcsn1jjGuf9WZmqPMbGxOzfcuphJCQ==
+  dependencies:
+    fast-deep-equal "^3.1.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
+
+ajv@^6.12.6:
+  version "6.12.6"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
+  integrity sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
   dependencies:
     fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
@@ -5517,6 +5527,13 @@ debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
   dependencies:
     ms "^2.1.1"
+
+debug@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
+  integrity sha512-IX2ncY78vDTjZMFUdmsvIRFY2Cf4FnD0wRs+nQwJU8Lu99/tPFdb0VybiiMTPe3I6rQmwsqQqRBvxU+bZ/I8sg==
+  dependencies:
+    ms "2.1.2"
 
 decamelize-keys@^1.1.0:
   version "1.1.0"
@@ -8677,10 +8694,10 @@ meow@^7.0.1:
     type-fest "^0.13.1"
     yargs-parser "^18.1.3"
 
-meow@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/meow/-/meow-7.1.0.tgz#50ecbcdafa16f8b58fb7eb9675b933f6473b3a59"
-  integrity sha512-kq5F0KVteskZ3JdfyQFivJEj2RaA8NFsS4+r9DaMKLcUHpk5OcHS3Q0XkCXONB1mZRPsu/Y/qImKri0nwSEZog==
+meow@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/meow/-/meow-7.1.1.tgz#7c01595e3d337fcb0ec4e8eed1666ea95903d306"
+  integrity sha512-GWHvA5QOcS412WCo8vwKDlTelGLsCGBVevQB5Kva961rmNfun0PCbv5+xta2kUMFJyR8/oWnn7ddeKdosbAPbA==
   dependencies:
     "@types/minimist" "^1.2.0"
     camelcase-keys "^6.2.2"
@@ -8960,7 +8977,7 @@ ms@2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
 
-ms@^2.1.1:
+ms@2.1.2, ms@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
