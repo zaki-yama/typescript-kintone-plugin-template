@@ -2209,10 +2209,10 @@
   resolved "https://registry.yarnpkg.com/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
   integrity sha512-QPcGmICAPbGLGb6F/yNf/KzKqvFx8z5qx3D1yFqVAjoFmXK35EgyW+cJ57Te3CNsmzblwtzakLGFqHPqrfb4Tw==
 
-"@kintone/plugin-manifest-validator@^3.0.8":
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/@kintone/plugin-manifest-validator/-/plugin-manifest-validator-3.0.8.tgz#a43ca9c7d360aa8f91836d944317fcafa93da12b"
-  integrity sha512-Z05SHdOS0MH4YCCifpCGUsQ97EB6ZWIvTRNCv7Mo9EJPEj0pfyHjFbSF35MUCubeRmWopUXdjez37LYW745xfw==
+"@kintone/plugin-manifest-validator@^3.0.9":
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/@kintone/plugin-manifest-validator/-/plugin-manifest-validator-3.0.9.tgz#9976e46041434870de2a0bce1c15e2d7deb36475"
+  integrity sha512-BnB26FLAD1Nsa4lhkDb6Z3a7U0sypsH4+QGyuSBjdIt9AWprZvSyiWORTJqOSn/LW7e4VUtHsX0S2+7LnY0w+Q==
   dependencies:
     "@types/bytes" "^3.1.0"
     ajv "^6.12.6"
@@ -2220,13 +2220,13 @@
     rimraf "^3.0.2"
     ts-node "^9.0.0"
 
-"@kintone/plugin-packer@3.0.7":
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/@kintone/plugin-packer/-/plugin-packer-3.0.7.tgz#c4991070c70f167ea4799da68a2e29535b51e54a"
-  integrity sha512-3jzf0TuXPkB2q2bompaz6lJQvikjuY+ncS/lqQb01hw8wTLagc+4aAXCmeBgsD/9jd6gWn+T/NyIYC8IRCuTew==
+"@kintone/plugin-packer@3.0.8":
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/@kintone/plugin-packer/-/plugin-packer-3.0.8.tgz#ee78e3a0cbc99f166536d9d2a29825ee89368304"
+  integrity sha512-u+H/wnR/l1sovhK4gvKx0UdoGfLImcrP8cpf1QQwpl9svJoTnWZmU8XaJ+z0ZUugk86IE4x/SPzhwv6TyTpMWA==
   dependencies:
-    "@kintone/plugin-manifest-validator" "^3.0.8"
-    chokidar "^3.4.0"
+    "@kintone/plugin-manifest-validator" "^3.0.9"
+    chokidar "^3.4.3"
     debug "^4.2.0"
     denodeify "^1.2.1"
     meow "^7.1.1"
@@ -5060,6 +5060,21 @@ chokidar@^3.4.1:
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
     readdirp "~3.4.0"
+  optionalDependencies:
+    fsevents "~2.1.2"
+
+chokidar@^3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.3.tgz#c1df38231448e45ca4ac588e6c79573ba6a57d5b"
+  integrity sha512-DtM3g7juCXQxFVSNPNByEC2+NImtBuxQQvWlHunpJIS5Ocr0lG306cC7FCi7cEA0fzmybPUIl4txBIobk1gGOQ==
+  dependencies:
+    anymatch "~3.1.1"
+    braces "~3.0.2"
+    glob-parent "~5.1.0"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.5.0"
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -10795,6 +10810,13 @@ readdirp@~3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.4.0.tgz#9fdccdf9e9155805449221ac645e8303ab5b9ada"
   integrity sha512-0xe001vZBnJEK+uKcj8qOhyAKPzIT+gStxWr3LCB0DwcXR5NZJ3IaC+yGnHCYzB/S7ov3m3EEbZI2zeNvX+hGQ==
+  dependencies:
+    picomatch "^2.2.1"
+
+readdirp@~3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.5.0.tgz#9ba74c019b15d365278d2e91bb8c48d7b4d42c9e"
+  integrity sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==
   dependencies:
     picomatch "^2.2.1"
 
