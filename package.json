@@ -38,7 +38,7 @@
     "@storybook/preset-typescript": "3.0.0",
     "@storybook/react": "6.0.27",
     "@types/react": "16.9.53",
-    "@types/react-dom": "16.9.8",
+    "@types/react-dom": "16.9.9",
     "@types/storybook__react": "5.2.1",
     "babel-loader": "8.1.0",
     "eslint": "7.12.1",
