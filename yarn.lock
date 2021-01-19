@@ -2231,10 +2231,10 @@
   resolved "https://registry.yarnpkg.com/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
   integrity sha512-QPcGmICAPbGLGb6F/yNf/KzKqvFx8z5qx3D1yFqVAjoFmXK35EgyW+cJ57Te3CNsmzblwtzakLGFqHPqrfb4Tw==
 
-"@kintone/plugin-manifest-validator@^3.0.10":
-  version "3.0.10"
-  resolved "https://registry.yarnpkg.com/@kintone/plugin-manifest-validator/-/plugin-manifest-validator-3.0.10.tgz#0819b90904e9dccc493c8d8976fb9d8be8cf430d"
-  integrity sha512-6HO5c+ue+fMJB6g6lc34NZBkrpRWppMIavIlKiRWRS/afS6LP5aIdtgkogDt0TNhdk9zrGdP+L3uS3aL8LtCfg==
+"@kintone/plugin-manifest-validator@^3.0.11":
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/@kintone/plugin-manifest-validator/-/plugin-manifest-validator-3.0.11.tgz#f34f9d33922e4a8b3d580085c4015072901be034"
+  integrity sha512-m6mZAQjZkVnkM0WUqbqkyWJZe4kZC0v/T5IyTiByBNK6Tcc16p2kql7AcuRprRoegRDHuBzjndh6xFoM24UJ2A==
   dependencies:
     "@types/bytes" "^3.1.0"
     ajv "^6.12.6"
@@ -2242,12 +2242,12 @@
     rimraf "^3.0.2"
     ts-node "^9.1.1"
 
-"@kintone/plugin-packer@3.0.9":
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/@kintone/plugin-packer/-/plugin-packer-3.0.9.tgz#f4e6fa0fe708ee786c0b88f359d67bcb085b3046"
-  integrity sha512-yQ9PlRX5J3BUDBogdTXZadgdhKf5WaYv6WWD1PG7yI7TIi2RS3EKAB9l8BYFKMUWYI82ALBYc36NoDJ90UOK6Q==
+"@kintone/plugin-packer@3.0.10":
+  version "3.0.10"
+  resolved "https://registry.yarnpkg.com/@kintone/plugin-packer/-/plugin-packer-3.0.10.tgz#f75d4998f999655184017fa5be6409ddd07bfd3b"
+  integrity sha512-hPA0RK3zm2tPmKOdCm0Hhq+78ODUeBvDvBguiD50jznMRVty8R3mbGV9qAX3C3YVFZc2i1QART2LDJ2uJ1MdEw==
   dependencies:
-    "@kintone/plugin-manifest-validator" "^3.0.10"
+    "@kintone/plugin-manifest-validator" "^3.0.11"
     chokidar "^3.4.3"
     debug "^4.3.1"
     denodeify "^1.2.1"
