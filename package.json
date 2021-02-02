@@ -36,7 +36,7 @@
     "@kintone/plugin-packer": "3.0.11",
     "@kintone/plugin-uploader": "4.2.1",
     "@storybook/preset-typescript": "3.0.0",
-    "@storybook/react": "6.1.15",
+    "@storybook/react": "6.1.16",
     "@types/react": "17.0.0",
     "@types/react-dom": "17.0.0",
     "@types/storybook__react": "5.2.1",
