@@ -34,7 +34,7 @@
     "@babel/core": "7.12.16",
     "@cybozu/eslint-config": "11.0.4",
     "@kintone/plugin-packer": "3.0.14",
-    "@kintone/plugin-uploader": "4.2.3",
+    "@kintone/plugin-uploader": "4.2.4",
     "@storybook/preset-typescript": "3.0.0",
     "@storybook/react": "6.1.18",
     "@types/react": "17.0.2",
